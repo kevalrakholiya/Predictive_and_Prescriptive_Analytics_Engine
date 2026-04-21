@@ -24,26 +24,76 @@ The dataset used in this project is publicly available:
 ---
 
 ## Project Structure
+# Project Directory Structure
+
+```text
 Predictive_and_Prescriptive_Analytics_Engine/
 │
-├── data/ # Raw dataset files
-├── etl/ # Pentaho ETL jobs and transformations (.ktr, .kjb)
-├── sql/ # Schema creation and transformation scripts
-├── dashboards/ # Power BI (.pbix) file
+├── Analytics/
+│   ├── descriptive_exploration/
+│   │   ├── correlation_analysis.sql
+│   │   ├── monthly_analysis.sql
+│   │   ├── geographic_analysis.sql
+│   │   └── statistical_summary.sql
+│   │
+│   ├── predictive_exports/
+│   │   ├── cross_validation_results.csv
+│   │   ├── confusion_matrix.csv
+│   │   ├── feature_importance.csv
+│   │   ├── customer_satisfaction_predictions.csv
+│   │   └── decision_tree_outputs.csv
+│   │
+│   ├── prescriptive_exports/
+│   │   ├── delivery_cost_analysis.csv
+│   │   ├── delivery_optimization_results.csv
+│   │   └── warehouse_optimization.csv
+│   │
+│   ├── descriptive_analysis.sql
+│   ├── predictive_analysis.sql
+│   └── prescriptive_analysis.sql
+│
+├── Dashboards/
+│   └── BI_Dashboard.pbix
+│
+├── Database/
+│   ├── schema_creation.sql
+│   └── analytical_queries.sql
+│
+├── Documentation/
+│   ├── ERD.pdf
+│   ├── data_dictionary.xlsx
+│   └── user_guide.pdf
+│
+├── ETL/
+│   ├── extract_transform_load.ktr
+│   ├── tr_load_dim_geography.ktr
+│   ├── tr_load_dim_customer.ktr
+│   ├── tr_load_dim_orders.ktr
+│   ├── tr_load_dim_payment.ktr
+│   ├── tr_load_dim_products.ktr
+│   ├── tr_load_dim_sellers.ktr
+│   ├── tr_load_fact_sales.ktr
+│   └── tr_load_fact_delivery.ktr
+│
+├── Screenshots/
+│   └── BI_Dashboard.pdf
+│
+├── .gitignore
+├── CONTRIBUTING.md
 └── README.md
 
 ## Architecture
-Raw Data Sources
-↓
-ETL Pipelines (Pentaho Data Integration)
-↓
-Data Cleaning and Transformation
-↓
-PostgreSQL Data Warehouse (Star Schema)
-↓
-Analytics Layer (SQL + Python)
-↓
-Power BI Dashboard
+```mermaid
+graph TD
+    A[Raw Data Sources] --> B[ETL Pipelines: Pentaho Data Integration]
+    B --> C[Data Cleaning and Transformation]
+    C --> D[PostgreSQL Data Warehouse: Star Schema]
+    D --> E[Analytics Layer: SQL + Python]
+    E --> F[Power BI Dashboard]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style F fill:#bfb,stroke:#333,stroke-width:2px
 
 
 ---
